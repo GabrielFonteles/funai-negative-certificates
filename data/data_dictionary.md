@@ -60,7 +60,6 @@ A synthetic sample with 5 fictitious rows is available at `data/certidoes_sample
 
 | Column | Type | Description |
 |--------|------|-------------|
-| Carimbo de data/hora | string | Timestamp of data entry |
 | Nome do Jornal ou Revista | string | Name of the newspaper or magazine |
 | Estado da federação da publicação | string | Brazilian state where the publication is based |
 | Título do texto | string | Title of the article or report |
