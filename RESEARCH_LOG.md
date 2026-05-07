@@ -69,6 +69,29 @@ The original documents used a variety of coordinate formats and systems (UTM, ge
 
 ---
 
+## Exploratory Analysis — Signatories, Institutional Profile, and Geographic Distribution
+
+**Date:** 2026-05-07
+**Dataset:** `certidoes_negativas_funai_v7.csv`
+**Notebook:** `exploratory_analysis2.ipynb`
+
+### Signatories
+Oscar Jerônimo Bandeira de Mello is the leading signatory in the corpus, concentrating the highest number of negative certificates issued. Particularly relevant given his role as FUNAI president at two different moments during the civil-military dictatorship.
+
+### Institutional Profile
+71.8% of certificates were signed by military personnel; 28.2% by civilians. This provides empirical confirmation of FUNAI's militarization during the period and of the negative certificates as an instrument of the military apparatus.
+
+### Geographic Distribution
+Mato Grosso (MT) and Pará (PA) concentrate the largest share of certificates, consistent with the expansion of the agricultural frontier and large infrastructure projects in the Amazon region during the period. No anomalous municipal concentration detected; distribution is consistent with the state-level pattern.
+
+### Figures
+- `outputs/figures/05_signatarios.png`
+- `outputs/figures/06_civil_militar.png`
+- `outputs/figures/07_certidoes_por_uf.png`
+- `outputs/figures/08_certidoes_por_municipio.png`
+
+---
+
 ## Change Log
 
 | Date | Description |
