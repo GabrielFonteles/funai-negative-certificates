@@ -92,6 +92,45 @@ Mato Grosso (MT) and Pará (PA) concentrate the largest share of certificates, c
 
 ---
 
+## Exploratory Analysis — Temporal Distribution, Press Coverage, and Cross-Dataset Visualization
+
+**Date:** 2026-05-07
+**Datasets:** `certidoes_negativas_funai_v7.csv`, `reportagens_certidoes_negativas_v4.csv`
+**Notebook:** `exploratory_analysis2.ipynb`
+
+### Annual Frequency of Negative Certificates (1970–1990)
+Bar chart showing the yearly distribution of certificate issuance. Reveals periods of acceleration and relative silence within the corpus.
+
+### Certificates by Year and Signatory
+Heatmap (year × signatory) showing which officials were most active in each period. Prior to plotting, inconsistencies in the `Nome do Signatário` column were corrected and the dataset was saved as `certidoes_negativas_funai_v7.csv`.
+
+### Certificates by Year and State
+Bar chart (stacked by state) showing the geographic distribution of certificates over time. Provides visual evidence for the hypothesis that certificate issuance followed the expansion of the agricultural frontier: concentrated in Mato Grosso (MT) during the 1970s and shifting toward Pará (PA) in the 1980s. A focused MT × PA comparison was produced to make this pattern explicit.
+
+### Annual Frequency of Press Coverage (1972–2009)
+Bar chart showing the yearly distribution of press reports. Prior to plotting, inconsistencies in the `Nome do Jornal ou Revista` column were corrected across multiple iterations and the dataset was saved as `reportagens_certidoes_negativas_v4.csv`.
+
+### Press Coverage by Outlet — Overall Ranking
+Horizontal bar chart ranking all outlets by total number of reports in the corpus.
+
+### Press Coverage by Year and Outlet
+Heatmap (year × outlet) showing which vehicles dominated coverage in each period.
+
+### Certificates × Press Coverage — Dual-Axis Temporal Chart
+Side-by-side bar chart overlaying certificate issuance (1970–1990) and press coverage (1972–2009) on a shared time axis, with independent Y-axes. Visually captures the relationship between institutional action and public visibility over time.
+
+### Figures
+- `outputs/figures/09_frequencia_anual_certidoes.png`
+- `outputs/figures/10_heatmap_ano_signatario.png`
+- `outputs/figures/11_barras_ano_uf.png`
+- `outputs/figures/12_mt_pa_por_ano.png`
+- `outputs/figures/13_frequencia_anual_reportagens.png`
+- `outputs/figures/14_heatmap_ano_veiculo.png`
+- `outputs/figures/15_ranking_veiculos.png`
+- `outputs/figures/16_certidoes_x_reportagens.png`
+
+---
+
 ## Change Log
 
 | Date | Description |
