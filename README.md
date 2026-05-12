@@ -78,6 +78,17 @@ funai-certidoes-negativas/
 - Press coverage:
   https://infoamazonia.org/2023/04/24/tirar-indigena-do-meio-para-poder-colocar-projetos-de-colonizacao-as-certidoes-da-ditadura-que-contribuiram-com-genocidios/
 
+## Dataset
+
+The press reports dataset is publicly available at Harvard Dataverse:
+
+**DOI:** https://doi.org/10.7910/DVN/6GK8BK
+
+The dataset includes 105 press reports (1972-2009) documenting 
+conflicts related to FUNAI negative certificates, collected from 
+the Hemeroteca Indígena archive. A data dictionary describing 
+the full certificate dataset structure is also available.
+
 ## Data Availability Statement
 
 The raw certificate dataset was obtained under a usage agreement with FUNAI restricting it to academic research and prohibiting public redistribution, as it contains personal information. The press reports dataset is available in full in this repository. Aggregated outputs (figures, frequency tables) derived from the certificate data are published here and do not allow identification of individuals.
